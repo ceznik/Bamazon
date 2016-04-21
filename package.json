@@ -1,0 +1,31 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Exercise using MySQL, Node. js, and also the NPM Packages for MySQL and Prompt",
+  "main": "BamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceznik/Bamazon.git"
+  },
+  "keywords": [
+    "Bamazon",
+    "Node",
+    "MySQL",
+    "Prompt"
+  ],
+  "author": "Shawn Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ceznik/Bamazon/issues"
+  },
+  "homepage": "https://github.com/ceznik/Bamazon#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "colors": "^1.1.2",
+    "mysql": "^2.10.2",
+    "prompt": "^1.0.0"
+  }
+}
