@@ -3,8 +3,6 @@ var prompt = require('prompt');
 var mysql = require('mysql');
 var Table = require('cli-table');
 var keys = require('./keys.js');
-console.log(keys.databaseCreds);
-
 var table = new Table({
 	head: ['Product ID', 'Product Name', 'Price'],
 	colWidths: [15, 40, 10]
